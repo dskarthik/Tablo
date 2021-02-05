@@ -210,7 +210,7 @@
         margin-left: 5px;
       }
       #hmb{
-          widows: 30px;
+          width: 30px;
           height: 30px;
           margin: 0px;
           padding: 0px;
@@ -643,12 +643,17 @@
         width: 100%;
        margin: 2px;
         margin-top: 60px;
+        text-align: center;
     }
     .f2{
         width: 100%;
-        margin-left: 30px;
+         margin-left: 20px; 
         margin-top: 40px;
-    }
+     }
+     #con{
+         margin: 0px;
+         text-align: center;
+     }
     .f3{
         width: 100%;
         margin-top: 40px;
