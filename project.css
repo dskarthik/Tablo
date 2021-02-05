@@ -1,6 +1,6 @@
  body{
     margin: 0px;
-   width: 100%;
+    width: 100%; 
     } 
  .row1{
     background-image: url(https://cdn.pixabay.com/photo/2015/12/26/05/53/wood-1108307__340.jpg);
@@ -287,7 +287,7 @@
         display: table;
         clear: both;
       } 
-    .stepsa{
+ .stepsa{
          position: relative;
         animation: example 3s infinite;
         
@@ -296,7 +296,7 @@
         0% { left:0px; top:0px;}
         50% { left:20px; top:0px;}
         
-      }
+      } 
       
     .b1{
         float: left;
@@ -316,7 +316,7 @@
         display: table;
         clear: both;
       } 
-    .stepsb{
+     .stepsb{
          position: relative; 
         animation: ani 3s infinite;
     }
@@ -324,7 +324,7 @@
         0% { left:0px; top:0px;}
         50% { left:20px; top:0px;}
         
-      }
+      } 
       
     .b3{
         float: left;
@@ -354,7 +354,7 @@
         display: table;
         clear: both;
       } 
-     .stepsa{
+     /* .stepsa{
          position:relative;
          animation: example 1s infinite; 
         
@@ -363,7 +363,7 @@
         0% { left:0px; top:0px;}
         50% { left:6px; top:0px;}
         
-      } 
+      }  */
       
      .b1{
         float: left;
@@ -383,7 +383,7 @@
         display: table;
         clear: both;
       } 
-     .stepsb{
+     /* .stepsb{
          position:relative; 
          animation: ani 2s infinite; 
     } 
@@ -391,7 +391,7 @@
         50% { left:0px; top:0px;}
         0% { left:6px; top:0px;}
         
-      } 
+      }  */
       
      .b3{
         float: left;
@@ -402,7 +402,7 @@
     }
     
     .step2{
-         padding-left: 50px; 
+         padding-left: 140px; 
         font-size: 20px;
         color: aquamarine;
     }
@@ -507,7 +507,7 @@
          width: 100px;  */
     } 
      #i1mg{
-        width:90px; 
+        width:120px; 
         height: 140px; 
     } 
      #i2{
@@ -517,7 +517,7 @@
         width:100px;  */
     } 
     #i2mg{
-         width:90px; 
+         width:110px; 
         height: 140px; 
      }
      #i3{
@@ -526,11 +526,11 @@
         width:100px;   */
     } 
     #i3mg{
-         width:90px; 
+         width:105px; 
         height: 140px; 
      }
      #ia{
-         width:90px;
+         width:120px;
         margin: 2px;
         margin-left: 3px;
          height: 80px; 
@@ -541,7 +541,7 @@
     }
     
     #ib{
-        width:90px;
+        width:110px;
         margin: 2px;
         margin-left: 8px;
         height: 80px;
@@ -550,7 +550,7 @@
         font-size: small;
     }
     #ic{
-        width:90px;
+        width:100px;
         margin: 2px;
         margin-left: 6px;
         height: 80px;
@@ -566,7 +566,7 @@
         width: 100px; */
     }
     #i4mg{
-        width:90px; 
+        width:120px; 
         height: 140px; 
     }
     #i5{
@@ -577,7 +577,7 @@
         width: 100px; */
     }
     #i5mg{
-        width:90px; 
+        width:110px; 
         height: 140px; 
     }
     #i6{
@@ -587,7 +587,7 @@
         width: 100px; */
     }
     #i6mg{
-        width:90px; 
+        width:100px; 
         height: 140px; 
     }
     
@@ -630,13 +630,14 @@
         background-color: black;
         color: aliceblue;
         height: 600px;
+        width: fit-content;
         margin-top: 50px;
     }
    
     .f1{
         width: 100%;
-       margin: 20px;
-        margin-top: 50px;
+       margin: 2px;
+        margin-top: 60px;
     }
     .f2{
         width: 100%;
