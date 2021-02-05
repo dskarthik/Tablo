@@ -78,14 +78,14 @@
           margin-left: 400px;
       }
       .dropbtn {
-        background-color: #4CAF50;
-        color: white;
+       border:none;
         padding: 0px;
-        font-size: 0px;
-        border: none;
+     }
+     #hmb{
+        widows: 0px;
+        height: 0px;
         
-      }
-    
+    }
   }
   @media(min-width: 768px) and (max-width: 991px){
     
@@ -199,9 +199,9 @@
         
     } 
     .dropbtn {
-        background-color: #4CAF50;
+        /* background-color: #4CAF50; */
         color: white;
-        padding: 12px;
+        padding: 5px;
         font-size: 20px;
         border: none;
         cursor: pointer;
@@ -209,7 +209,12 @@
         margin-top: 10px;
         margin-left: 5px;
       }
-      
+      #hmb{
+          widows: 30px;
+          height: 30px;
+          margin: 0px;
+          padding: 0px;
+      }
       .nb {
         position: relative;
         display: grid;
