@@ -306,7 +306,7 @@
         width: 300px;
     }
     .step1{
-        font-size: 100px;
+        font-size: 50px;
         margin-left: 20px;
         margin-top: 200px;
         color: aquamarine;
@@ -369,13 +369,13 @@
         float: left;
     } 
     .scan{
-        padding: 30px;
+        padding: 4px;
         width: 100px;
     }
     .step1{
-        font-size: 40px;
-        margin-left: 5px;
-        margin-top: 50px;
+        font-size: 20px;
+        margin-left: 2px;
+        margin-top: 10px;
         color: aquamarine;
     }
     .stepsb:after {
@@ -397,13 +397,13 @@
         float: left;
     } 
     .scan2{
-        padding: 30px;
+        padding: 4px;
         width: 100px;
     }
     
     .step2{
-         padding-left: 80px; 
-        font-size: 50px;
+         padding-left: 50px; 
+        font-size: 20px;
         color: aquamarine;
     }
     
@@ -507,18 +507,18 @@
          width: 100px;  */
     } 
      #i1mg{
-        width:150px; 
-        height: 200px; 
+        width:90px; 
+        height: 140px; 
     } 
      #i2{
         margin: 3px;
-        margin-left: 10px;
+        margin-left: 3px;
           /* height: 200px;  
         width:100px;  */
     } 
     #i2mg{
-         width:150px; 
-        height: 200px; 
+         width:90px; 
+        height: 140px; 
      }
      #i3{
         margin: 3px;
@@ -526,14 +526,14 @@
         width:100px;   */
     } 
     #i3mg{
-         width:150px; 
-        height: 200px; 
+         width:90px; 
+        height: 140px; 
      }
      #ia{
-         width:150px;
+         width:90px;
         margin: 2px;
         margin-left: 3px;
-         height: 70px; 
+         height: 80px; 
           text-align: center; 
          font-size: small;
          background-color: chartreuse;
@@ -541,22 +541,22 @@
     }
     
     #ib{
-        width:150px;
+        width:90px;
         margin: 2px;
         margin-left: 8px;
-        height: 70px;
+        height: 80px;
         text-align: center;
         background-color: aqua;
-        
+        font-size: small;
     }
     #ic{
-        width:150px;
+        width:90px;
         margin: 2px;
         margin-left: 6px;
-        height: 70px;
+        height: 80px;
         text-align: center;
         background-color: deeppink;
-      
+        font-size: small;
     } 
     #i4{
         margin: 3px;
@@ -566,8 +566,8 @@
         width: 100px; */
     }
     #i4mg{
-        width:150px; 
-        height: 200px; 
+        width:90px; 
+        height: 140px; 
     }
     #i5{
         margin: 3px;
@@ -577,8 +577,8 @@
         width: 100px; */
     }
     #i5mg{
-        width:150px; 
-        height: 200px; 
+        width:90px; 
+        height: 140px; 
     }
     #i6{
         margin: 3px;
@@ -587,8 +587,8 @@
         width: 100px; */
     }
     #i6mg{
-        width:150px; 
-        height: 200px; 
+        width:90px; 
+        height: 140px; 
     }
     
   }
@@ -649,7 +649,7 @@
         text-align: center;
     }
    #footimg{
-       width: 400px;
+       width: 200px;
    } 
     
   }
