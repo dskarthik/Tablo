@@ -1,6 +1,8 @@
- body{
+body{
     margin: 0px;
     width: 100%; 
+    font-family: "Lato", sans-serif;
+  
     } 
  .row1{
     background-image: url(https://cdn.pixabay.com/photo/2015/12/26/05/53/wood-1108307__340.jpg);
@@ -72,19 +74,31 @@
       
       .options a:hover {
         background: #ddd;
-        color: black;
+        color: #4CAF50;
+      }
+      .o4{
+        margin-left: 10px;
+        margin-right: 0px;
+        padding: 0px;
+      }
+      
+      #scamg{
+        width: 40px;
       }
       .o1{
-          margin-left: 400px;
+          margin-left: 280px;
       }
-      .dropbtn {
-       border:none;
-        padding: 0px;
-     }
-     #hmb{
-        widows: 0px;
-        height: 0px;
-        
+      .o2{
+        margin-left: 10px;
+      }
+      .o3{
+        margin-left: 10px;
+      }
+    #mySidenav{
+      display: none;
+    }
+    #sp1{
+      display: none;
     }
   }
   @media(min-width: 768px) and (max-width: 991px){
@@ -198,55 +212,51 @@
        
         
     } 
-    .dropbtn {
-        /* background-color: #4CAF50; */
-        color: white;
-        padding: 5px;
-        font-size: 20px;
-        border: none;
-        cursor: pointer;
-        margin-right: 440px;
-        margin-top: 10px;
-        margin-left: 5px;
-      }
-      #hmb{
-          width: 30px;
-          height: 30px;
-          margin: 0px;
-          padding: 0px;
-      }
-      .nb {
-        position: relative;
-        display: grid;
-      }
-      
-      .options {
-        display: none;
-        position: absolute;
-        background-color: darkgreen;
-        min-width: 160px;
-        border:2px solid black;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     #opt{
+       display: none;
+     }
+    
+      .sidenav {
+        height:100%;
+        width: 0;
+         position:fixed; 
         z-index: 1;
-        margin-left: 5px;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
       }
-     
-      .options a {
-        color: aliceblue;
-        padding: 12px 16px;
+      
+      .sidenav a {
+        padding: 15px;
+        padding-left: 25px;
         text-decoration: none;
+        font-size: 25px;
+        color: #f1f1f1;
         display: block;
+        transition: 0.3s;
       }
       
-      .options a:hover {background-color: darkgrey;}
-      
-      .nb:hover .options {
-        display: block;
-        
+      .sidenav a:hover {
+        color: #4CAF50;
       }
       
-      .nb:hover.dropbtn {
-        background-color: #4CAF50;
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+        padding: 16px;
+      }
+      #scamg{
+        width: 60px;
       }
     #logo{
         width: 300px;
