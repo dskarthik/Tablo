@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(54, 52, 52);
+}
+.cbox{
+    border: 2px solid blueviolet;
+    height:550px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+#hc{
+    text-align: center;
+    color: white;
+}
+#coin{
+    color: white;
+    list-style: none;
+}
