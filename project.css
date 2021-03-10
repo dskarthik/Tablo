@@ -226,9 +226,10 @@ body{
         z-index: 1;
         top: 0;
         left:0;
-        background-color: #111;
+        /* background-color: #111; */
+        background-color: rgb(3, 44, 54);
         overflow-x: hidden;
-        transition: 0.5s;
+         transition: 0.5s; 
         padding-top: 60px;
         
       }
@@ -238,7 +239,7 @@ body{
         padding-left: 25px;
         text-decoration: none;
         font-size: 25px;
-        color: #f1f1f1;
+        /* color: #f1f1f1; */
         display: block;
         transition: 0.3s;
       }
@@ -254,11 +255,34 @@ body{
         font-size: 36px;
         margin-left: 50px;
       }
-      
-      #main {
-        transition: margin-left .5s; 
-        /* padding: 16px; */
+      .o1{
+        background-color: white;
+        border-radius:3px;
+        margin: 10px;
+        text-align: center;
       }
+      .o2{
+        background-color: white;
+        border-radius:3px;
+        margin: 10px;
+        text-align: center;
+      }
+      .o3{
+        background-color: white;
+        border-radius:3px;
+        margin: 10px;
+        text-align: center;
+      }
+      .o4{
+        background-color: white;
+        border-radius:3px;
+        margin: 10px;
+        text-align: center;
+      }
+       #main {
+         transition: margin-left .5s;  
+         /* padding: 16px;  */
+      } 
       #scamg{
         width: 60px;
       }
