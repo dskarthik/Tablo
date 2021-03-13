@@ -611,8 +611,8 @@ body{
     /* border-radius: 25px; */
 }
 .dish1{
-    width: 100px;
-    height: 60px;
+    width: 90px;
+    height: 70px;
     margin:0px;
     /* border-radius: 15px; */
 }
@@ -621,7 +621,7 @@ body{
     background-color: aliceblue;
     /* padding: 2px; */
     /* margin-bottom: 2px; */
-    font-size:8px;
+    font-size:6px;
     border-radius: 15px;
     margin-bottom:3px;
     color: rgb(10, 70, 70);
